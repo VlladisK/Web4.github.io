@@ -1,0 +1,176 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+<head> 
+ <meta charset="utf-8"> 
+ <title>Kondratov_Vladislav_Web</title> 
+ <link rel="stylesheet" href="style.css">
+</head> 
+ 
+<body> 
+
+  <header>
+    <div class="header_solo">
+      <div id="logo"></div>
+      <div id="name">
+        
+        <h1 class="header_t">Lo-Fi</h1>
+      </div>
+    </div>
+  </header>
+
+  <nav id = "nav" class="menu">
+    <ul id ="nav1">
+      <li><a href=#1 >Задание 1</a></li>
+      <li><a href=#2>Таблица</a></li>
+      <li><a href=#3>Форма</a></li>
+    </ul>
+  </nav>
+
+ <a id="comeback"></a> 
+
+<h2 id="1"> Список гиперссылок: </h2> 
+<ol> 
+ <li><a href="http://example.com">Абсолютная гиперссылка на главную страницу сайта example.com </a></li> 
+ <li><a href="https://example.com"> Абсолютная на главную сайта example.com в протоколе https </a></li> 
+ <li><a href="ftp://public.example.com/directory/file.txt">Ссылка на файл на сервере FTP без авторизации</a></li> 
+ <li><a href="ftp://test:password@private.public.example.com/directory/file.txt"> Ссылка на файл на сервере FTP с авторизацией</a></li> 
+ <li><a href="elo.html#count" target="_blank">Ссылку на фрагмент страницы некоторого сайта</a></li> 
+ <li><a href="#evro">Ссылка на фрагмент текущей страницы </a></li> 
+ <li><a href="https://www.example.com?key=Magic&version=bluck" target="_blank"> Ссылка с двумя параметрами в URL</a></li> 
+ <li><p>Список ссылок основной навигации сайта с подписями</p> 
+ <nav> 
+ <ul> 
+ <li><a href="#1" title="task">Ссылка</a></li> 
+ <li><a href="#3" title="form">Ссылка</a></li> 
+ </ul> 
+ </nav> 
+<br> 
+ 
+ <li><a>Ссылка без href</a></li> 
+ <li><a href="">Ссылка с пустым href</a></li> 
+ <li><a href="http://example.com" rel = "nofollow"> Ссылка, по которой запрещен переход поисковикам</a></li> 
+ <li><a href="http://example.com" rel = "noindex">Запрещенная для индексации поисковиками</a></li> 
+ <li><p>В данное время развивается гейминг и  <a target="_blank" href="https://www.twitch.tv"> Twitch </a>один из ресурсов, где можно за этим наблюдать</p></li> 
+ <li><a href="https://www.youtube.com/watch?v=jfKfPfyJRdk" target="_blank"><img src="https://i.ytimg.com/vi/lTRiuFIWV54/maxresdefault.jpg?7857057827" width="650" height="350" alt="twice"></a></li> 
+ <p><map name="figur0">
+  <area shape = "circle" coords = "133,153, 75 " href = "https://cyclowiki.org/wiki/%D0%9A%D1%80%D1%83%D0%B3_(%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)" alt = "круг ">
+ <area shape = "rect" coords = "302,77, 555,230" href = "https://www.yaklass.ru/p/geometria/8-klass/chetyrekhugolniki-9229/priamougolnik-kvadrat-priznaki-priamougolnika-i-kvadrata-romb-9231/re-80c176ad-8feb-4e92-8bd2-584665a37158" alt = "прямоуголник ">
+ <area shape = "poly" coords = "675,230, 777,80, 880,230 " href = "https://microexcel.ru/treugolnik-figura/" alt = "треугольник">
+ </p></map>
+ <p id="map"><img src="figur.png"  usemap = "#figur0" alt = "Фигуры"></p>
+ 
+ <li><a href="srr.html">Относительная ссылка на страницу в текущем каталоге</a></li> 
+ <li><a href="about/about.html">Относительная ссылка на старницу в каталоге about</a></li> 
+ <li><a href="../index.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li> 
+ <li><a href="../../index.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li> 
+ <li><a href="/">Сокращенная ссылка на главную</a></li> 
+ <li><a href="//srr.html">Сокращенная ссылка на внутреннюю</a></li> 
+</ol>
+
+<h2 id="2">Таблица</h2>
+                <table>
+                    <tr>
+                        <th>Колонка 1</th>
+                        <th>Колонка 2</th>
+                        <th>Колонка 3</th>
+                    </tr>
+                    <tr>
+                        <td>Ячейка 11</td>
+                        <td>Ячейка 12</td>
+                        <td>Ячейка 13</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Ячейка 21 объединенная с 22</td>
+                        <td rowspan="2">Ячейка 23 и 33</td>
+                    </tr>
+                    <tr>
+                        <td>Ячейка 31</td>
+                        <td>Ячейка 32</td>
+                    </tr>
+                    <tr>
+                        <td>Ячейка 41</td>
+                        <td>Ячейка 42</td>
+                        <td>Ячейка 43</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Ячейка 51 объединенная с 52 и 53</td>
+                    </tr>
+                </table>
+
+  <h2 id="3">Форма</h2>
+
+  <form action="/"
+    method="POST">
+
+    <label>
+      Имя:<br />
+      <input name="field-name-1"
+        value="" 
+        placeholder="Введите ваше имя"/>
+    </label><br /><br />
+
+    <label>
+      E-mail:<br />
+      <input name="field-email"
+        type="email"
+        placeholder="Введите вашу почту" />
+    </label><br /><br />
+
+    <label>
+      Дата рождения:<br />
+      <input name="field-date"
+        value="2000-01-01"
+        type="date" />
+    </label><br /><br />
+
+    Пол:<br />
+    <label><input type="radio" checked="checked"
+      name="radio-group-1" value="Значение1" />
+      Мужской</label>
+    <label><input type="radio"
+      name="radio-group-1" value="Значение2" />
+      Женский</label><br /><br />
+
+      Количество конечностей:<br />
+    <label><input type="radio" checked="checked"
+      name="radio-group-2" value="Значение1" />
+      1</label>
+    <label><input type="radio"
+      name="radio-group-2" value="Значение2" />
+      2</label>
+      <label><input type="radio" checked="checked"
+      name="radio-group-2" value="Значение3" />
+      3</label>
+      <label><input type="radio" checked="checked"
+       name="radio-group-2" value="Значение4" />
+      4</label><br /><br />
+
+      Сверхспособности:
+      <br />
+      <select name="field-name-4[]"
+        multiple="multiple">
+        <option value="Значение1">Бессмертие</option>
+        <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
+        <option value="Значение3" selected="selected">Левитация</option>
+      </select>
+    <br /><br />
+
+    <label>
+      Биография:<br />
+      <textarea name="field-name-2">Расскажите о себе</textarea> 
+    </label><br /><br />
+
+      С контрактом ознакомлен (а):
+    <label><input type="checkbox" checked="checked"
+      name="check-1" />
+      </label><br /><br /> 
+    
+    <input type="submit" value="Отправить" />
+  </form>
+  
+
+				<footer>(c) Кондратов Владислав 2022</footer>
+
+</body>
+
+</html> 
